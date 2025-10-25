@@ -1,5 +1,5 @@
 ﻿using Microsoft.Data.Sqlite;
-string connectionString = "Data Source=tienda.db.sql;";
+string connectionString = "Data Source=tienda.db;";
 
 // Crear conexión a la base de datos
 using (SqliteConnection connection = new SqliteConnection(connectionString))
